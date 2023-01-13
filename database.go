@@ -21,8 +21,8 @@ type DB_Session struct {
 }
 
 type DB_Params struct {
-	Server             string `json:"server" yaml:"server"`
-	MaxConnectAttempts int    `json:"max_connect_attempts,omitempty" yaml:"max_connect_attempts"`
+	Server             string `json:"server"`
+	MaxConnectAttempts int    `json:"max_connect_attempts,omitempty"`
 }
 
 const (
