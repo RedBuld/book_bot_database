@@ -21,8 +21,8 @@ type DB_Session struct {
 }
 
 type DB_Params struct {
-	Server             string
-	MaxConnectAttempts int
+	Server             string `json:"server"`
+	MaxConnectAttempts int    `json:"max_connect_attempts,omitempty"`
 }
 
 const (
